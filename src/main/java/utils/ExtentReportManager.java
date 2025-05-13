@@ -18,7 +18,7 @@ import org.openqa.selenium.WebDriver;
 public class ExtentReportManager {
 	private static ExtentReports extent;
 	private static ExtentTest test;
-
+	public static String reportPath;
 	public static ExtentReports getReportsInstance() {
 		if (extent == null) {
 			String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());

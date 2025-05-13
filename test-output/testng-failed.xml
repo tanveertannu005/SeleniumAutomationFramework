@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.LoginTest">
         <methods>
-          <include name="teardownReport"/>
           <include name="setup"/>
+          <include name="teardownReport"/>
           <include name="testvalidlogin"/>
           <include name="teardown"/>
           <include name="setupReport"/>
